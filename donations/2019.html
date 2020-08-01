@@ -1,0 +1,138 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title></title>
+	<style type="text/css">table.h1{ width: 100%; font-size: 300%}
+table.h2{ width: 60%; font-size: 200%}
+.h1 td, .h2 td { font-family: Times, "Times New Roman", FreeSerif, serif }
+.bar td{ background: #7A378B; height: 3px }
+a img { border-width: 1px }
+body {background-color: powderblue;}
+
+.dollars {
+  display : none;
+}
+.percent {
+  display : none;
+}
+	</style>
+	<script src = "https://code.jquery.com/jquery-3.4.1.js">
+	</script>
+</head>
+<body>
+<p>To see the donation amounts as a fraction of my pre-tax income, click the header of the second column. To see the donation amounts as a number of dollars, click the header of the third column. If you click both, you learn the amount of my pre-tax income. Many social circles have taboos around that, so think before you click.&nbsp;</p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:1000px;">
+	<thead>
+		<tr>
+			<th scope="col">
+			<p>Charity</p>
+			</th>
+			<th scope="col"><button id="toggle_percent">Amount (%)</button></th>
+			<th id="dollar_col" scope="col"><button id="toggle_dollar">Amount ($)</button></th>
+			<th scope="col">Arguments from the org about why to donate</th>
+			<th scope="col">&nbsp;Why I donate</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="https://www.givedirectly.org/">GiveDirectly</a></td>
+			<td>
+			<p class="percent">5.6%</p>
+			</td>
+			<td>
+			<p class="dollars">$20000</p>
+			</td>
+			<td>
+			<p>GiveDirectly &quot;gives cash directly to people living in poverty.&quot;<br />
+			They measure&nbsp;their impact in peer-reviewed randomized control trials. One of their studies claims an impact per $1000 transferred of:&nbsp;<span style="font-size: 13.3333px;">$</span>270 increase in earnings, <span style="font-size: 13.3333px;">$</span>430 increase in assets, <span style="font-size: 13.3333px;">$</span>330 increase in annual nutrition spend,&nbsp;0% effect on alcohol&nbsp;or tobacco spend.</p>
+
+			<p>See summaries and links to their papers <a href="https://www.givedirectly.org/research-at-give-directly/">here.</a></p>
+			</td>
+			<td>
+			<p>I have not studied their methodology directly. The key (anec)data that drive my donations are excerpts from interviews with transfer recipients. They describe using the money for things like water-resistant roofing, schooling for children, and building wells.&nbsp;</p>
+
+			<p>Here I optimize jointly for the probability that my donation improves some specific person&#39;s lives and the expected value of the magnitude of improvement.</p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://ought.org/">Ought</a></td>
+			<td>
+			<p class="percent">2.8%</p>
+			</td>
+			<td>
+			<p class="dollars">$10244<br />
+			chosen after the rest of the numbers to make the sum a round number.</p>
+			</td>
+			<td>
+			<p>&quot;Ought is a research lab that develops mechanisms for delegating open-ended thinking to advanced machine learning systems. We study this delegation problem using experiments with human participants.&quot;</p>
+
+			<p><a href="https://ought.org/updates/2020-01-11-arguments">Here</a> is a technical summary of their latest batch of experiments.&nbsp;</p>
+			</td>
+			<td>
+			<p>I read their published research program in depth, and I find the directions promising. It is one of three places I was willing to leave grad school to be employed at. (The other two were Jane Street, where I currently work, and OpenAI, which is much more well funded than Ought.)</p>
+
+			<p>I aim to eventually transition to direct technical work on problems that require theoretical contributions from individuals thinking deeply for a long time. With this work I&#39;m aiming to support the efforts of agents that are similar to future-me.&nbsp;</p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.beammath.org/">BEAM</a></td>
+			<td>
+			<p class="percent">0.9%</p>
+			</td>
+			<td>
+			<p class="dollars">$3142<br />
+			chosen as approximately 1000 * pi.</p>
+			</td>
+			<td>
+			<p>&quot;BEAM asks itself, &#39;what do most scientists, mathematicians, engineers, and programmers do growing up?&#39;&nbsp;and then, &#39;how can we bring those same opportunities to underserved students?&#39;&nbsp;</p>
+
+			<p>BEAM then creates a series of experiences for students in grades 6-12: a 6th grade summer program in Los Angeles and New York City; a 7th grade residential summer program on college campuses; advising from 8th-12th grade to help students attend great high schools, pass algebra in 8th grade, access other enrichment programs, and ultimately go to a great college. &nbsp;Students declaring STEM majors even get support during college. &nbsp;Through our work, BEAM helps to diversify other enrichment programs and gives students a realistic chance at the career of their dreams.&quot;</p>
+			</td>
+			<td>
+			<p>I worked at BEAM as a counselor in their residential summer program for 7th graders. Since moving to NYC, I&#39;ve taught classes in their Saturday continuing enrichment program ~10 times.&nbsp;</p>
+
+			<p>I consider this in part a &quot;local&quot; donation to people that live near me (the students in general) and people that I know personally (students I&#39;ve worked with and staffpeople that are my close friends).</p>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://mathcamp.org">Canada/USA Mathcamp</a></td>
+			<td>
+			<p class="percent">0.4%</p>
+			</td>
+			<td>
+			<p class="dollars">$1414<br />
+			chosen as approximately 1000 * sqrt(2).</p>
+			</td>
+			<td>
+			<p>&quot;Canada/USA Mathcamp is an&nbsp;intensive 5-week-long summer program&nbsp;for mathematically talented high school students, designed to expose these students to the beauty of advanced mathematical ideas and to new ways of thinking.</p>
+
+			<p>More than just a summer camp, Mathcamp is&nbsp;<a href="https://www.mathcamp.org/student_life">a&nbsp;vibrant community</a>, made up of a wide variety of people who share a common love of learning and passion for mathematics.&quot;</p>
+			</td>
+			<td>I consider this entirely a &quot;local&quot; donation for the benefit of agents that are similar to 15-year-old me. I give Mathcamp a significant fraction of the credit of my career path as a theorem-prover and quantitative thinker.</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.berkeleyreach.org/">REACH</a></td>
+			<td>
+			<p class="percent">0.3%</p>
+			</td>
+			<td>
+			<p class="dollars">$1200<br />
+			chosen by committing 100/month.</p>
+			</td>
+			<td>
+			<p>&quot;The Berkeley REACH (Rationality&nbsp;and&nbsp;Effective Altruism&nbsp;Community Hub) is a physical community space for people trying to optimize their lives and their philanthropy. We facilitate cooperation between individuals and groups who are trying to improve the world.&quot;</p>
+			</td>
+			<td>I consider this entirely a &quot;local&quot; donation for the benefit of agents that are similar to grad-school me --- people living in the SF Bay area, trying to define their intellectual and career identities, looking for communities outside of academia in which to do this.</td>
+		</tr>
+	</tbody>
+</table>
+<script>    
+$("#toggle_dollar" ).click(function() {
+    $('.dollars').css('display', 'inline');
+});
+$("#toggle_percent" ).click(function() {
+    $('.percent').css('display', 'inline');
+});
+
+</script></body>
+</html>

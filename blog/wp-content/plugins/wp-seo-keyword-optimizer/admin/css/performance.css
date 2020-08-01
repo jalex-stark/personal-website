@@ -1,0 +1,40 @@
+.wsko-tables td:last-child i:not(.fa-angle-down):not(.fa-angle-up) {
+    border: solid 1px #ccc;
+    border-radius: 50%;
+    padding: 6px 5px;
+    font-size: 90%;
+    color: #777;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.wsko-speed-waterfall-wrapper .wsko-chart-outer-wrapper {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+.wsko-ressources-wrapper .wsko-tables td {
+    word-break: break-word;
+}
+
+.wsko-ressources-wrapper .dashicons {
+    font-size: 16px;
+    line-height: 19px;
+    opacity: .8;
+}
+
+.wsko-action-button-sub {
+    position: absolute;
+    transform: scale(.9);
+    margin-top: -10px;
+    color: #444 !important;
+}
+
+/*
+.wsko-tables td {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+*/

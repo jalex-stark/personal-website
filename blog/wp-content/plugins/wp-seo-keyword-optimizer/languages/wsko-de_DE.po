@@ -1,0 +1,1214 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: BAVOKO SEO Tools\n"
+"POT-Creation-Date: 2018-07-27 15:30+0000\n"
+"PO-Revision-Date: 2018-07-27 15:32+0000\n"
+"Language-Team: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wsko.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: Hakan <hakankocak1994@hotmail.de>\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: "
+
+#: classes/class.template.php:310
+msgid "Remove from 'Monitored Keywords'"
+msgstr "Aus SEO Monitoring entfernen"
+
+#: classes/class.template.php:310
+msgid "Add to 'Monitored Keywords'"
+msgstr "Zu SEO Monitoring hinzufügen"
+
+#: classes/class.template.php:328
+msgid "Remove Domain from 'Disavowed Backlinks'"
+msgstr ""
+
+#: classes/class.template.php:328
+msgid "Add Domain to 'Disavowed Backlinks'"
+msgstr ""
+
+#: classes/class.template.php:331
+msgid "Remove URL from 'Disavowed Backlinks'"
+msgstr ""
+
+#: classes/class.template.php:331
+msgid "Add URL to 'Disavowed Backlinks'"
+msgstr ""
+
+#: classes/class.template.php:418
+msgid "CO"
+msgstr "CO"
+
+#: classes/class.template.php:463 classes/class.template.php:481
+msgid "No Image found"
+msgstr "Kein Bild gefunden"
+
+#: classes/class.template.php:1605
+#: content-optimizer/template-co-advanced.php:47
+msgid "Save"
+msgstr "Speichern"
+
+#: template-metas-view.php:387
+#: template-metas-view.php:460
+msgid "Robots"
+msgstr "Robots"
+
+#: template-metas-view.php:620
+msgid "Site Attributes"
+msgstr ""
+
+#: template-metas-view.php:632
+msgid "Post Attributes"
+msgstr "Beitragseigenschaften"
+
+#: template-metas-view.php:640
+msgid "Custom Fields"
+msgstr "Benutzerdefinierte Felder"
+
+#: template-metas-view.php:658
+#: tools/page-links.php:129
+#: tools/page-metas.php:17
+#: tools/page-metas-social.php:16
+#: social/page-snippets.php:18
+msgid "Taxonomies"
+msgstr "Taxonomien"
+
+#: template-metas-view.php:681
+msgid "Term Attributes"
+msgstr "Term Attribute"
+
+#: template-metas-view.php:687
+msgid "Term Custom Fields"
+msgstr "Benutzerdefinierte Felder"
+
+#: admin/controller/controller.info.php:17
+msgid "WSKO = BST"
+msgstr ""
+
+#: admin/controller/controller.account.php:13
+msgid "Account (WSKO)"
+msgstr ""
+
+#: admin/controller/controller.social.php:23
+#: dashboard/frame.php:75
+msgid "Social"
+msgstr "Social"
+
+#: admin/controller/controller.social.php:30
+msgid "Facebook"
+msgstr ""
+
+#: admin/controller/controller.social.php:31
+#: social/page-twitter.php:13
+msgid "Twitter"
+msgstr ""
+
+#: admin/controller/controller.pricing.php:13
+msgid "Pricing (WSKO)"
+msgstr ""
+
+#: admin/controller/controller.backlinks.php:26
+#: dashboard/frame.php:70
+#: content-optimizer/template-co-backlinks.php:35
+#: content-optimizer/frame-content-optimizer.php:115
+msgid "Backlinks"
+msgstr ""
+
+#: admin/controller/controller.backlinks.php:33
+#: admin/controller/controller.onpage.php:36
+#: admin/controller/controller.performance.php:24
+#: admin/controller/controller.search.php:35
+#: content-optimizer/frame-content-optimizer.php:107
+msgid "Overview"
+msgstr "Übersicht"
+
+#: admin/controller/controller.backlinks.php:34
+msgid "Domains"
+msgstr ""
+
+#: admin/controller/controller.backlinks.php:35
+#: admin/controller/controller.performance.php:25
+#: admin/controller/controller.search.php:37
+#: dashboard/template-dashboard-search.php:60
+#: tools/page-linking.php:15
+#: tools/page-linking.php:25
+#: tools/template-linking-manager.php:80
+#: search/page-pages.php:7
+#: onpage/page-links.php:25
+#: onpage/page-titles.php:37
+#: onpage/page-titles.php:46
+#: onpage/page-descriptions.php:37
+#: onpage/page-descriptions.php:46
+#: onpage/page-content.php:21
+#: onpage/page-index.php:77
+#: onpage/page-headings.php:63
+#: onpage/page-keywords.php:51
+#: onpage/page-keywords.php:61
+#: onpage/page-canon.php:27
+#: performance/page-pages.php:52
+msgid "Pages"
+msgstr "Seiten"
+
+#: admin/controller/controller.backlinks.php:36
+msgid "Disavow Tool"
+msgstr ""
+
+#: admin/controller/controller.setup.php:19
+msgid "Setup"
+msgstr ""
+
+#: admin/controller/controller.download.php:14
+msgid "Safe Download"
+msgstr ""
+
+#: admin/controller/controller.onpage.php:29
+#: dashboard/frame.php:66
+msgid "Onpage"
+msgstr "Onpage"
+
+#: admin/controller/controller.onpage.php:37
+msgid "Meta Titles"
+msgstr ""
+
+#: admin/controller/controller.onpage.php:38
+msgid "Meta Descriptions"
+msgstr ""
+
+#: admin/controller/controller.onpage.php:39
+#: admin/controller/controller.tools.php:37
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: admin/controller/controller.onpage.php:40
+msgid "Headings"
+msgstr "Überschriften"
+
+#: admin/controller/controller.onpage.php:41
+msgid "Content Length"
+msgstr "Content Länge"
+
+#: admin/controller/controller.onpage.php:42
+#: onpage/page-keywords.php:58
+#: onpage/page-keywords.php:69
+#: onpage/page-keywords.php:77
+msgid "Priority Keywords"
+msgstr "Priority Keywords"
+
+#: admin/controller/controller.onpage.php:43
+#: onpage/page-index.php:54
+msgid "Indexability"
+msgstr ""
+
+#: admin/controller/controller.onpage.php:44
+msgid "Canonicals"
+msgstr ""
+
+#: admin/controller/controller.onpage.php:45
+#: admin/controller/controller.tools.php:36
+msgid "Social Snippets"
+msgstr "Social Snippets"
+
+#: admin/controller/controller.dashboard.php:17
+msgid "Dashboard"
+msgstr ""
+
+#: admin/controller/controller.knowledge.php:22
+msgid "Knowledge Base"
+msgstr ""
+
+#: admin/controller/controller.settings.php:19
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: admin/controller/controller.settings.php:25
+msgid "Settings Tour"
+msgstr ""
+
+#: admin/controller/controller.settings.php:28
+msgid "Step 1 Settings"
+msgstr ""
+
+#: admin/controller/controller.settings.php:29
+msgid "Step 1 Settings Content"
+msgstr ""
+
+#: admin/controller/controller.tools.php:28
+msgid "Tools"
+msgstr ""
+
+#: admin/controller/controller.tools.php:35
+msgid "Metas"
+msgstr "Metas"
+
+#: admin/controller/controller.tools.php:38
+#: content-optimizer/frame-content-optimizer.php:116
+#: content-optimizer/template-co-linking.php:15
+msgid "Internal Links"
+msgstr ""
+
+#: admin/controller/controller.tools.php:39
+msgid "Redirect Manager"
+msgstr ""
+
+#: admin/controller/controller.tools.php:40
+#: tools/page-sitemap.php:93
+msgid "Sitemap"
+msgstr "Sitemap"
+
+#: admin/controller/controller.tools.php:41
+msgid ".htaccess & robots.txt"
+msgstr ""
+
+#: admin/controller/controller.performance.php:26
+msgid "Resources"
+msgstr ""
+
+#: admin/controller/controller.performance.php:276
+#: dashboard/frame.php:71
+#: content-optimizer/frame-content-optimizer.php:117
+msgid "Performance"
+msgstr ""
+
+#: admin/controller/controller.search.php:28
+#: dashboard/frame.php:65
+msgid "Search"
+msgstr "Suche"
+
+#: admin/controller/controller.search.php:36
+#: dashboard/template-dashboard-search.php:51
+#: dashboard/frame.php:31
+#: content-optimizer/frame-content-optimizer.php:139
+#: search/page-keywords.php:6
+#: search/page-monitoring.php:11
+#: onpage/page-keywords.php:52
+msgid "Keywords"
+msgstr "Keywords"
+
+#: admin/controller/controller.search.php:38
+msgid "Countries & Devices"
+msgstr ""
+
+#: admin/controller/controller.search.php:39
+msgid "Competitors"
+msgstr ""
+
+#: admin/controller/controller.search.php:40
+msgid "Keyword Research"
+msgstr "Keywordrecherche"
+
+#: admin/controller/controller.search.php:41
+msgid "Monitoring"
+msgstr ""
+
+#: admin/controller/controller.search.php:51
+msgid "Search Tour"
+msgstr ""
+
+#: admin/controller/controller.search.php:54
+msgid "Step 1 Search"
+msgstr ""
+
+#: admin/controller/controller.search.php:55
+msgid "Step 1 Search Content"
+msgstr ""
+
+#: dashboard/template-dashboard-search.php:9
+msgid "Clicks & Impressions"
+msgstr "Klicks & Impressionen"
+
+#: dashboard/template-dashboard-search.php:12
+#: search/page-overview.php:8
+#: search/page-monitoring.php:12
+#: settings/view-reporting.php:81
+#: settings/view-reporting.php:101
+msgid "Clicks"
+msgstr "Klicks"
+
+#: dashboard/template-dashboard-search.php:13
+#: content-optimizer/frame-content-optimizer.php:141
+#: search/page-overview.php:9
+#: search/page-monitoring.php:13
+#: settings/view-reporting.php:82
+#: settings/view-reporting.php:102
+msgid "Impressions"
+msgstr "Impressionen"
+
+#: dashboard/template-dashboard-search.php:29
+msgid "Position & CTR"
+msgstr "Position & CTR"
+
+#: dashboard/template-dashboard-search.php:32
+msgid "Position"
+msgstr "Position"
+
+#: dashboard/template-dashboard-search.php:33
+msgid "CTR"
+msgstr "CTR"
+
+#: dashboard/frame.php:31
+#: dashboard/frame.php:32
+#: dashboard/frame.php:33
+#: dashboard/frame.php:34
+#: dashboard/frame.php:36
+#: dashboard/frame.php:37
+#: dashboard/frame.php:38
+msgid "Learn more"
+msgstr "Mehr erfahren"
+
+#: dashboard/frame.php:32
+msgid "Google Clicks"
+msgstr "Google Klicks"
+
+#: dashboard/frame.php:33
+#: content-optimizer/template-co-score.php:16
+#: content-optimizer/frame-content-optimizer.php:320
+msgid "Content Score"
+msgstr "Content Score"
+
+#: dashboard/frame.php:34
+#: dashboard/template-dashboard-social.php:9
+msgid "Social Follower"
+msgstr "Social Follower"
+
+#: dashboard/frame.php:36
+#: content-optimizer/template-co-backlinks.php:36
+msgid "Referring Domains"
+msgstr ""
+
+#: dashboard/frame.php:37
+msgid "Avg. Page Speed"
+msgstr ""
+
+#: dashboard/frame.php:38
+#: performance/page-overview.php:128
+#: performance/page-pages.php:40
+msgid "Avg. Page Size"
+msgstr ""
+
+#: dashboard/frame.php:79
+msgid "Pro Features"
+msgstr ""
+
+#: dashboard/template-dashboard-onpage.php:26
+msgid "Content Score History"
+msgstr "Content Score Entwicklung"
+
+#: dashboard/template-dashboard-onpage.php:36
+#: onpage/page-overview.php:57
+msgid "Pages with the lowest Content Score"
+msgstr ""
+
+#: dashboard/template-dashboard-social.php:11
+msgid "Top 10 Tweets"
+msgstr "Top 10 Tweets"
+
+#: content-optimizer/template-co-score.php:20
+msgid "Last Crawl"
+msgstr ""
+
+#: content-optimizer/template-co-backlinks.php:37
+msgid "Referring Subnets"
+msgstr ""
+
+#: content-optimizer/template-co-backlinks.php:38
+msgid "Referring IP's"
+msgstr ""
+
+#: content-optimizer/frame-content-optimizer.php:108
+msgid "Metas & Snippets"
+msgstr ""
+
+#: content-optimizer/frame-content-optimizer.php:110
+msgid "Rankings"
+msgstr "Rankings"
+
+#: content-optimizer/frame-content-optimizer.php:111
+#: tools/page-sitemap.php:184
+#: settings/frame.php:18
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: content-optimizer/frame-content-optimizer.php:112
+msgid "Content"
+msgstr "Inhalt"
+
+#: content-optimizer/frame-content-optimizer.php:140
+msgid "Klicks"
+msgstr "Klicks"
+
+#: content-optimizer/frame-content-optimizer.php:142
+#: search/page-monitoring.php:14
+msgid "Avg. Position"
+msgstr "Durchschnittl. Position"
+
+#: content-optimizer/template-co-linking.php:16
+msgid "External Links"
+msgstr ""
+
+#: content-optimizer/template-co-performance.php:39
+msgid "Status Code"
+msgstr ""
+
+#: content-optimizer/template-co-performance.php:40
+msgid "Pagespeed"
+msgstr ""
+
+#: content-optimizer/template-co-performance.php:41
+msgid "Size"
+msgstr ""
+
+#: content-optimizer/template-co-performance.php:42
+msgid "Requests"
+msgstr ""
+
+#: tools/page-links.php:17
+msgid "404 to 301 Settings"
+msgstr ""
+
+#: tools/page-links.php:128
+#: tools/page-metas.php:16
+#: tools/page-metas-social.php:15
+#: social/page-snippets.php:17
+msgid "Post Types"
+msgstr "Post Types"
+
+#: tools/page-links.php:130
+#: tools/page-links.php:200
+#: tools/page-metas.php:19
+#: tools/page-metas.php:57
+#: tools/page-metas-social.php:18
+#: tools/page-metas-social.php:55
+#: social/page-snippets.php:20
+#: social/page-snippets.php:57
+msgid "Bulk Tools"
+msgstr "Bulk-Werkzeuge"
+
+#: tools/page-linking.php:14
+msgid "Internal Links Manager"
+msgstr ""
+
+#: tools/page-linking.php:16
+msgid "Network"
+msgstr ""
+
+#: tools/page-linking.php:17
+#: tools/page-linking.php:33
+msgid "Orphaned Pages"
+msgstr ""
+
+#: tools/page-linking.php:29
+msgid "Home Network"
+msgstr ""
+
+#: tools/view-redirects.php:6
+msgid "Test Redirect Rules & Path"
+msgstr "Weiterleitungsregeln & -pfad"
+
+#: tools/template-linking-manager.php:40
+msgid "Linking Manager Settings"
+msgstr ""
+
+#: tools/page-sitemap.php:93
+msgid "Active - Last update"
+msgstr "Aktiv - Letzte Aktualisierung"
+
+#: tools/page-sitemap.php:93
+msgid "Never"
+msgstr "Niemals"
+
+#: tools/page-sitemap.php:93
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: tools/page-sitemap.php:97
+msgid "Activate Sitemap"
+msgstr "Sitemap aktivieren"
+
+#: tools/page-sitemap.php:98
+msgid "Sitemap will be automatically generated every hour."
+msgstr ""
+
+#: tools/page-sitemap.php:101
+msgid "Automatic Sitemap Generation"
+msgstr "Automatische Sitemap-Generierung"
+
+#: tools/page-sitemap.php:106
+msgid "Activate Ping"
+msgstr ""
+
+#: tools/page-sitemap.php:107
+msgid ""
+"Sitemap will be sent to Google and Bing in hourly intervals after you "
+"changed something in your content."
+msgstr ""
+
+#: tools/page-sitemap.php:110
+msgid "Automatic Sitemap Ping"
+msgstr ""
+
+#: tools/page-sitemap.php:115
+msgid "Post Type Settings"
+msgstr "Post Type Einstellungen"
+
+#: tools/page-sitemap.php:116
+msgid "Select and configure post types, that should be included in the sitemap"
+msgstr ""
+"Wählen Sie die Post Types aus, die in die Sitemap aufgenommen werden sollen."
+
+#: tools/page-sitemap.php:121
+msgid "The estimate rate you are going to update your website with."
+msgstr ""
+"Die geschätzte durchschnittliche Aktualisierungsrate für Ihre Seiten im "
+"jeweiligen Post Type"
+
+#: tools/page-sitemap.php:124
+msgid "Set a value between 0 and 1 for low or respective high priority."
+msgstr ""
+"Stellen Sie einen Wert zwischen 0 und 1 für niedrige oder entsprechend hohe "
+"Priorität ein."
+
+#: tools/page-sitemap.php:147
+msgid "Always (generated new every time)"
+msgstr "Immer (wird jedes Mal neu generiert)"
+
+#: tools/page-sitemap.php:148
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: tools/page-sitemap.php:149
+msgid "Daily"
+msgstr "Täglich"
+
+#: tools/page-sitemap.php:150
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: tools/page-sitemap.php:151
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: tools/page-sitemap.php:152
+msgid "Yearly"
+msgstr "Jährlich"
+
+#: tools/page-sitemap.php:153
+#, fuzzy
+msgid "Never (archived)"
+msgstr "Niemals (archiviert)"
+
+#: tools/page-robots.php:17
+msgid ".htaccess"
+msgstr ".htaccess"
+
+#: tools/page-robots.php:18
+msgid "robots.txt"
+msgstr "robots.txt"
+
+#: search/view-keyword-research-report.php:24
+#: search/view-keyword-research-report.php:30
+msgid "Search Volume"
+msgstr "Suchvolumen"
+
+#: search/view-keyword-research-report.php:25
+#: search/view-keyword-research-report.php:31
+msgid "CPC"
+msgstr "CPC"
+
+#: search/view-keyword-research-report.php:26
+#: search/view-keyword-research-report.php:32
+msgid "Competition"
+msgstr ""
+
+#: search/view-keyword-research-report.php:43
+msgid "WDF*IDF"
+msgstr ""
+
+#: search/view-keyword-research-report.php:72
+msgid "Suggested Keywords"
+msgstr "Empfohlene Keywords"
+
+#: search/view-keyword-research-report.php:96
+msgid "Related Keywords"
+msgstr "Verwandte Keywords"
+
+#: search/page-overview.php:6
+#: search/page-overview.php:29
+#: search/page-keywords.php:16
+#: search/page-keywords.php:23
+#: settings/view-reporting.php:65
+msgid "All Keywords"
+msgstr "Alle Keywords"
+
+#: search/page-overview.php:7
+#: search/page-keywords.php:7
+msgid "Keywords in Top 10"
+msgstr "Keywords in den Top 10"
+
+#: search/page-overview.php:15
+msgid "Ranking Keywords History"
+msgstr "Entwicklung der Keywords"
+
+#: search/page-overview.php:16
+msgid "Ranking Pages History"
+msgstr "Entwicklung der Seiten"
+
+#: search/page-overview.php:17
+msgid "Click History"
+msgstr "Entwicklung der Klicks"
+
+#: search/page-overview.php:18
+msgid "Impressions History"
+msgstr "Entwicklung der Impressionen"
+
+#: search/page-overview.php:19
+msgid "Position History"
+msgstr "Entwicklung der Positionen"
+
+#: search/page-overview.php:20
+msgid "Ranking Distribution"
+msgstr "Rankingverteilung"
+
+#: search/page-overview.php:21
+#: search/page-devices-countries.php:6
+#: search/page-devices-countries.php:42
+msgid "Devices"
+msgstr "Geräte"
+
+#: search/page-overview.php:22
+msgid "Location"
+msgstr "Standort"
+
+#: search/page-overview.php:23
+msgid "Ranking Distribution History"
+msgstr "Entwicklung der Rankingverteilung"
+
+#: search/page-overview.php:29
+msgid "Top 5 Keywords"
+msgstr "Top 5 Keywords"
+
+#: search/page-overview.php:30
+msgid "Top 5 Pages"
+msgstr "Top 5 Seiten"
+
+#: search/page-overview.php:30
+#: search/page-pages.php:17
+#: search/page-pages.php:24
+#: performance/page-overview.php:230
+#: performance/page-overview.php:231
+msgid "All Pages"
+msgstr "Alle Seiten"
+
+#: search/page-devices-countries.php:5
+#: search/page-devices-countries.php:20
+msgid "Countries"
+msgstr ""
+
+#: search/page-devices-countries.php:36
+msgid "Devices Click Distribution"
+msgstr ""
+
+#: search/page-keywords.php:8
+#: search/page-keywords.php:17
+#: search/page-keywords.php:26
+msgid "New Keywords"
+msgstr "Neue Keywords"
+
+#: search/page-keywords.php:9
+#: search/page-keywords.php:18
+#: search/page-keywords.php:29
+msgid "Lost Keywords"
+msgstr "Verlorene Keywords"
+
+#: search/page-pages.php:8
+msgid "Pages in Top 10"
+msgstr "Seiten in den Top 10"
+
+#: search/page-pages.php:9
+#: search/page-pages.php:18
+#: search/page-pages.php:27
+msgid "New Pages"
+msgstr "Neue Seiten"
+
+#: search/page-pages.php:10
+#: search/page-pages.php:19
+#: search/page-pages.php:30
+msgid "Lost Pages"
+msgstr "Verlorene Seiten"
+
+#: search/page-monitoring.php:19
+msgid "Histories"
+msgstr "Entwicklungen"
+
+#: search/page-monitoring.php:28
+msgid "Monitored Keywords"
+msgstr "Monitored Keywords"
+
+#: onpage/page-links.php:21
+#: onpage/page-titles.php:31
+#: onpage/page-descriptions.php:31
+msgid "OK"
+msgstr "OK"
+
+#: onpage/page-links.php:22
+#: onpage/page-titles.php:33
+#: onpage/page-descriptions.php:33
+msgid "Too Long"
+msgstr "Zu lang"
+
+#: onpage/page-titles.php:22
+msgid "Length"
+msgstr "Länge"
+
+#: onpage/page-titles.php:23
+#: onpage/page-keywords.php:53
+msgid "Duplicates"
+msgstr "Duplikate"
+
+#: onpage/page-titles.php:29
+msgid "Title Length"
+msgstr "Title Länge"
+
+#: onpage/page-titles.php:32
+#: onpage/page-descriptions.php:32
+msgid "Too Short"
+msgstr "Zu kurz"
+
+#: onpage/page-titles.php:34
+#: onpage/page-descriptions.php:34
+msgid "Not Set"
+msgstr "Nicht gesetzt"
+
+#: onpage/page-titles.php:43
+msgid "Title Duplicates"
+msgstr "Title Duplikate"
+
+#: onpage/page-descriptions.php:43
+msgid "Description Duplicates"
+msgstr "Description Duplikate"
+
+#: onpage/page-content.php:18
+msgid "Content Length Distribution"
+msgstr "Verteilung der Content Länge"
+
+#: onpage/page-index.php:55
+msgid "Status Codes"
+msgstr ""
+
+#: onpage/page-index.php:62
+msgid "Index Distribution"
+msgstr ""
+
+#: onpage/page-index.php:72
+msgid "HTTP Status Code Distribution"
+msgstr ""
+
+#: onpage/page-overview.php:30
+msgid "Avg. Content Score"
+msgstr "Durchschnittl. Content Score"
+
+#: onpage/page-overview.php:35
+msgid "Onpage Issues"
+msgstr "Onpage Probleme"
+
+#: onpage/view-onpage-issues.php:14
+msgid "Keyword is not set"
+msgstr "Keyword ist nicht gesetzt"
+
+#: onpage/view-onpage-issues.php:18
+msgid "Keyword Density is too low"
+msgstr "Keyworddichte ist zu niedrig"
+
+#: onpage/view-onpage-issues.php:20
+msgid "Keyword Density is too high"
+msgstr "Keyworddichte ist zu hoch"
+
+#: onpage/view-onpage-issues.php:30
+msgid "Title Length is too short"
+msgstr "Der Title ist zu kurz"
+
+#: onpage/view-onpage-issues.php:32
+msgid "Title Length is too long"
+msgstr "Title ist zu lang"
+
+#: onpage/view-onpage-issues.php:34
+msgid "Title is not set"
+msgstr "Title ist nicht gesetzt"
+
+#: onpage/view-onpage-issues.php:38
+msgid "Title has no Prio 1 Keyword"
+msgstr "Title hat kein Prio 1 Keyword"
+
+#: onpage/view-onpage-issues.php:48
+msgid "Description Length is too short"
+msgstr "Description Länge ist zu kurz"
+
+#: onpage/view-onpage-issues.php:50
+msgid "Description Length is too long"
+msgstr "Description Länge ist zu lang"
+
+#: onpage/view-onpage-issues.php:52
+msgid "Description is not set"
+msgstr "Description ist nicht gesetzt"
+
+#: onpage/view-onpage-issues.php:56
+msgid "Description has no Prio 1 Keyword"
+msgstr "Beschreibung hat kein Prio 1 Keyword"
+
+#: onpage/view-onpage-issues.php:66
+msgid "Content Length is less than 50 Words"
+msgstr "Textlänge ist unter 50 Wörter"
+
+#: onpage/view-onpage-issues.php:68
+msgid "Content Length is less than 100 Words"
+msgstr "Textlänge ist unter 100 Wörter"
+
+#: onpage/view-onpage-issues.php:70
+msgid "Content Length is less than 200 Words"
+msgstr "Textlänge ist unter 200 Wörter"
+
+#: onpage/view-onpage-issues.php:74
+msgid "There is no Content!"
+msgstr ""
+
+#: onpage/view-onpage-issues.php:87
+msgid "H1 not set"
+msgstr ""
+
+#: onpage/view-onpage-issues.php:89
+msgid "There is more than one H1 used!"
+msgstr ""
+
+#: onpage/view-onpage-issues.php:93
+msgid "H1 has no Prio 1 Keyword"
+msgstr "H1 hat kein Prio 1 Keyword"
+
+#: onpage/view-onpage-issues.php:97
+msgid "H1 has not all Prio 1 Keywords"
+msgstr "H1 hat nicht alle Prio 1 Keywords"
+
+#: onpage/view-onpage-issues.php:111
+msgid "H2 Count too low"
+msgstr ""
+
+#: onpage/view-onpage-issues.php:119
+msgid "No H2/H3 found"
+msgstr "Keine H2 oder H3 Überschriften gefunden"
+
+#: onpage/view-onpage-issues.php:129
+msgid "URL length too long"
+msgstr "URL-Länge zu lang"
+
+#: onpage/view-onpage-issues.php:133
+msgid "URL has no Prio 1 Keyword"
+msgstr ""
+
+#: onpage/view-onpage-issues.php:143
+msgid "No Media found!"
+msgstr "Keine Medien gefunden"
+
+#: onpage/view-onpage-issues.php:147
+msgid "Missing alt on media elements"
+msgstr "Fehlendes Alt-Tag bei Medienelementen"
+
+#: onpage/view-onpage-issues.php:150
+msgid "Keyword Density:"
+msgstr "Keyworddichte:"
+
+#: onpage/view-onpage-issues.php:152
+msgid "Meta Titles:"
+msgstr "Meta Title:"
+
+#: onpage/view-onpage-issues.php:154
+msgid "Meta Descriptions:"
+msgstr "Meta Description:"
+
+#: onpage/view-onpage-issues.php:156
+msgid "Content Length:"
+msgstr "Textlänge:"
+
+#: onpage/view-onpage-issues.php:158
+msgid "Headings:"
+msgstr "Überschriften:"
+
+#: onpage/view-onpage-issues.php:160
+msgid "Permalinks:"
+msgstr "Permalinks:"
+
+#: onpage/view-onpage-issues.php:162
+msgid "Media:"
+msgstr "Medien:"
+
+#: onpage/page-headings.php:19
+#: onpage/page-headings.php:30
+msgid "None"
+msgstr "Keine"
+
+#: onpage/page-headings.php:51
+#: onpage/page-headings.php:56
+msgid "Heading Count Distribution"
+msgstr "Verteilung der Überschriften"
+
+#: onpage/view-crawl-info.php:25
+msgid "Next Crawl:"
+msgstr "Nächster Crawl:"
+
+#: onpage/view-crawl-info.php:26
+msgid "Last Crawl:"
+msgstr "Letzter Crawl:"
+
+#: onpage/view-crawl-info.php:27
+msgid "Crawled Pages:"
+msgstr "Anzahl gecrawlter Seiten"
+
+#: onpage/page-canon.php:24
+msgid "Canonical Type Distribution"
+msgstr ""
+
+#: performance/page-resources.php:85
+msgid "Total CSS Files"
+msgstr ""
+
+#: performance/page-resources.php:86
+msgid "Unreachable CSS Files"
+msgstr ""
+
+#: performance/page-resources.php:87
+#: performance/page-resources.php:106
+#: performance/page-resources.php:124
+msgid "Avg. Speed"
+msgstr ""
+
+#: performance/page-resources.php:88
+#: performance/page-resources.php:107
+#: performance/page-resources.php:125
+msgid "Avg. Size"
+msgstr ""
+
+#: performance/page-resources.php:97
+msgid "CSS-Files"
+msgstr ""
+
+#: performance/page-resources.php:104
+msgid "Total JS Files"
+msgstr ""
+
+#: performance/page-resources.php:105
+msgid "Unreachable JS Files"
+msgstr ""
+
+#: performance/page-resources.php:115
+msgid "JS-Files"
+msgstr ""
+
+#: performance/page-resources.php:122
+msgid "Total Images"
+msgstr ""
+
+#: performance/page-resources.php:123
+msgid "Unreachable Images"
+msgstr ""
+
+#: performance/page-resources.php:134
+msgid "Images"
+msgstr ""
+
+#: performance/page-overview.php:127
+#: performance/page-pages.php:39
+msgid "Avg. Pagespeed"
+msgstr ""
+
+#: performance/page-overview.php:129
+#: performance/page-pages.php:41
+msgid "Avg. Request per Page"
+msgstr ""
+
+#: performance/page-overview.php:130
+#: performance/page-pages.php:42
+msgid "Avg. Image Size per Page"
+msgstr ""
+
+#: performance/page-overview.php:137
+msgid "Performance Indicators Histories"
+msgstr ""
+
+#: performance/page-overview.php:172
+msgid "Pagespeed Insights"
+msgstr ""
+
+#: performance/page-overview.php:203
+msgid "Asset Size Distribution (AVG per Page)"
+msgstr ""
+
+#: performance/page-overview.php:208
+msgid "Asset Request Distribution (AVG per Page)"
+msgstr ""
+
+#: performance/page-overview.php:219
+msgid "Source Distribution"
+msgstr ""
+
+#: performance/page-overview.php:222
+msgid "Plugin Distribution"
+msgstr ""
+
+#: performance/page-overview.php:230
+msgid "Top 5 slowest Pages"
+msgstr ""
+
+#: performance/page-overview.php:231
+msgid "Top 5 fastest Pages"
+msgstr ""
+
+#: social/page-twitter.php:15
+msgid "Twitter Follower"
+msgstr "Twitter Follower"
+
+#: social/page-twitter.php:16
+msgid "Total Favourites"
+msgstr "Favoriten gesamt"
+
+#: social/page-twitter.php:17
+msgid "Total Retweets"
+msgstr "Total Retweets"
+
+#: social/page-twitter.php:20
+msgid "History Follower"
+msgstr "Entwicklung Follower"
+
+#: social/page-twitter.php:26
+msgid "Your last 200 Tweets"
+msgstr ""
+
+#: settings/view-reporting.php:7
+msgid "SEO Reporting"
+msgstr ""
+
+#: settings/view-reporting.php:11
+msgid "Reporting Interval"
+msgstr ""
+
+#: settings/view-reporting.php:22
+msgid "Send Report via E-Mail"
+msgstr ""
+
+#: settings/view-reporting.php:39
+msgid "Report Time Range"
+msgstr ""
+
+#: settings/view-reporting.php:48
+msgid "Logo"
+msgstr ""
+
+#: settings/view-reporting.php:57
+msgid "Reporting Configuration"
+msgstr ""
+
+#: settings/view-reporting.php:63
+msgid "Keyword History"
+msgstr ""
+
+#: settings/view-reporting.php:64
+msgid "Pages History"
+msgstr ""
+
+#: settings/view-reporting.php:83
+#: settings/view-reporting.php:103
+msgid "..."
+msgstr ""
+
+#: settings/view-reporting.php:134
+#: settings/view-reporting.php:138
+msgid "Latest Reports"
+msgstr ""
+
+#: settings/frame.php:17
+msgid "General"
+msgstr "Allgemein"
+
+#: settings/frame.php:20
+msgid "Reporting"
+msgstr ""
+
+#: settings/frame.php:22
+msgid "API Settings"
+msgstr "API Einstellungen"
+
+#: settings/frame.php:23
+msgid "Error Reports"
+msgstr "Fehlerberichte"
+
+#: settings/frame.php:33
+msgid "Content Optimizer Settings"
+msgstr ""
+
+#: settings/frame.php:73
+msgid "Search Settings"
+msgstr ""
+
+#: settings/frame.php:94
+msgid "Onpage Settings"
+msgstr ""
+
+#: settings/frame.php:255
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: settings/frame.php:265
+msgid "Auto"
+msgstr ""
+
+#: settings/frame.php:353
+msgid "Import from other Plugins"
+msgstr "Import aus anderen Plugins"
+
+#: settings/frame.php:370
+msgid "Backup plugin configuration"
+msgstr ""
+
+#: settings/frame.php:461
+msgid "Reset BAVOKO SEO Tools"
+msgstr "BAVOKO SEO Tools zurücksetzen"
+
+#: backlinks/template-domain-data.php:55
+msgid "Unique Linking Pages"
+msgstr ""
+
+#: backlinks/template-domain-data.php:56
+msgid "Unique Landing Pages"
+msgstr ""
+
+#: backlinks/template-domain-data.php:57
+msgid "Follow/Nofollow"
+msgstr ""
+
+#: backlinks/template-domain-data.php:58
+msgid "Total Clicks"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "BAVOKO SEO Tools"
+msgstr "BAVOKO SEO Tools"
+
+#. Description of the plugin/theme
+msgid "The Most Comprehensive All-in-One WordPress SEO Plugin!"
+msgstr "Das umfangreichste All-in-One WordPress SEO Plugin!"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.bavoko.tools/"
+msgstr "http://www.bavoko.tools/"
+
+#. Author of the plugin/theme
+msgid "BAVOKO Tools"
+msgstr "BAVOKO Tools"

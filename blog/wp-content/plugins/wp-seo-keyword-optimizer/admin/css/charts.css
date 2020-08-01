@@ -1,0 +1,28 @@
+.wsko-chart-container
+{
+    position: relative;
+    background-color:rgb(230, 230, 230);
+}
+.wsko-chart-bar-item
+{
+    position: absolute;
+    background-color: rgb(51, 122, 183);
+    color: white;
+    text-align: center;
+}
+.wsko-chart-line-item
+{
+    position: absolute;
+    color: rgb(51, 122, 183);
+    text-align: center;
+}
+.wsko-chart-bar-label
+{
+    position: absolute;
+    width: 100%;
+    left: 0cm;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    padding: 2px;
+    color: black;
+}

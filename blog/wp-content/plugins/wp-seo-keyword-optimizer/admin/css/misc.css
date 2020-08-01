@@ -1,0 +1,165 @@
+/* NPS Score */
+
+.nps-wrapper {
+    position: fixed;
+    z-index: 3;
+    bottom: -250px;
+    left: 410px;
+    right: 0px;
+    padding: 15px;
+    background-color: #fff;
+    min-height: 120px;
+    text-align: center;    
+    -webkit-box-shadow: 0 -5px 20px rgba(0,0,0,0.06);
+    box-shadow: 0 -5px 20px rgba(0,0,0,0.06);    
+
+    -webkit-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+    transition: all ease-in-out .4s;    
+}
+.nps-inner-form {
+    text-align:left;
+    max-width: 500px;
+    margin: 0 auto; 
+}
+.nps-wrapper.active.in {
+    bottom: 0px;
+}
+.nps-second-step i {
+    font-size: 90px;
+    display: block;
+    padding: 30px;
+}
+
+/* Table of Contents */
+.wsko-misc-content-table-wrapper {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+.wsko-misc-content-table-wrapper a {
+    color: rgba(68, 68, 68, .7);
+    margin-left: 10px;
+}
+ol.wsko-misc-content-table-gen ol li:first-child {
+    margin-top: 8px;
+}
+.wsko-misc-content-table-gen
+{
+    margin:0px!important;
+    padding:0px!important;
+}
+.wsko-misc-content-table-wrapper ol
+{
+    counter-reset: wsko-table-content-item;
+    padding-left: 10px;
+}
+.wsko-misc-content-table-wrapper li
+{
+    display: block
+}
+.wsko-misc-content-table-wrapper li:before
+{
+    content: counters(wsko-table-content-item, ".") " ";
+    counter-increment: wsko-table-content-item;
+    color: rgba(68, 68, 68, .7);
+}
+
+/* wsko switch */
+input.wsko-switch{
+display: inline-block;
+position: relative;
+width: 35px;
+height: 20px;
+-webkit-appearance: none;
+background: #fff;
+outline: none;
+border-radius: 60px;
+box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+transition: .5s;
+border-color:#ddd;
+}
+input.wsko-switch-colored{
+background: #da2323;
+}
+input.wsko-switch:checked{
+background: #2ecc71;
+}
+input.wsko-switch:before{
+content: '' !important;
+position: absolute;
+width: 20px !important;
+height: 20px !important;
+border-radius: 60px;
+top: 0;
+left: 0;
+transform: scale(1.05);
+box-shadow: 0 1px 10px rgba(0,0,0,.2);
+background: #fff;
+transition: .5s;
+margin: 0px !important;
+margin-top: -1px !important;
+}
+input.wsko-switch:checked:before{
+left: 44%; 
+}
+/*
+.wsko_wrapper label > .loader {
+    display:none !important;
+}
+*/
+
+/* WSKO Pro Modal */
+.wsko-pro-modal-inner li i {
+    color: #337ab7;
+    margin-right: 5px;
+}
+.wsko-pro-modal-inner li {
+    padding: 8px 0px;
+    border-bottom: solid 1px #eee;
+    margin: 0px;
+}
+.wsko-pro-modal-inner .modal-title {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+ul.pro-advantages-list{
+    padding: 20px;
+}
+.bavoko-seo-tools-wrapper .wsko-pro-modal-inner a.btn {
+    box-shadow: none;
+    border: 0px;
+    line-height: 25px;
+}
+
+.wsko-pro-modal-inner .wsko-ranking-delta {
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 20px 15px;
+}
+.wsko-pro-modal-inner .wsko-ranking-delta {
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 20px 15px;
+}
+.wsko-pro-modal-inner .wsko-ranking-delta ul li {
+    border: 0px;
+}
+.wsko-pro-modal-inner .wsko-ranking-delta ul li .wsko-label-sm {
+    margin: 0px !important;
+}
+.wsko-pro-modal-inner .wsko-ranking-delta > p {
+    margin-bottom: 15px;
+}
+
+
+/* Visual Composer Fix */
+#titlediv + .composer-switch * {
+  -webkit-box-sizing: initial;
+  -moz-box-sizing: initial;
+  box-sizing: initial;
+}

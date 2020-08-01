@@ -1,0 +1,8 @@
+[15-Apr-2020 02:01:20 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jalexsta/public_html/blog/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/jalexsta/public_html/blog/wp-content/themes/twentyseventeen/404.php on line 13
+[23-Jul-2020 15:52:26 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/jalexsta/public_html/blog/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home2/jalexsta/public_html/blog/wp-content/themes/twentyseventeen/404.php on line 13

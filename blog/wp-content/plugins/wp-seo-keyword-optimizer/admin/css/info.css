@@ -1,0 +1,55 @@
+body {background-color:white;}
+
+.wsko-updated-wrapper .feature img {
+    max-width: 100%;
+}
+
+.wsko-updated-wrapper h1 {
+    font-size:28px;
+}
+
+h3 {font-weight:600; font-size:20px;}
+
+/*
+.wsko-updated-wrapper .wsko-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+*/
+.wsko-updated-wrapper .wsko-col-sm-5 {
+	margin: auto 0;
+}
+
+.wsko-updated-wrapper .wsko_logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.wsko-updated-wrapper iframe {
+    width: 100%;
+    height: 100%;
+}
+.wsko-updated-wrapper ul li {
+    list-style-type: disc;
+}
+.wsko-updated-wrapper ul {
+	padding-left:40px;
+}
+
+.wsko-updated-wrapper p {
+	margin-top:0px;
+	margin-bottom:5px;
+}
+.wsko-updated-wrapper .text-off {
+	opacity: .7;
+}
+
+.schatten {-webkit-box-shadow: 3px 0px 20px 0px rgba(0,0,0,0.18);
+-moz-box-shadow: 3px 0px 20px 0px rgba(0,0,0,0.18);
+box-shadow: 3px 0px 20px 0px rgba(0,0,0,0.18);
+}
+
+.abtrennung {border-bottom:1px solid #f7f7f7; padding-bottom:20px; padding-top:20px;}

@@ -1,0 +1,18 @@
+[01-Apr-2019 00:30:45 UTC] PHP Warning:  require_once(ABSPATHWPINC/IXR/class-IXR-server.php): failed to open stream: No such file or directory in /home3/jalexsta/public_html/blog/wp-includes/class-IXR.php on line 42
+[01-Apr-2019 00:30:45 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/IXR/class-IXR-server.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home3/jalexsta/public_html/blog/wp-includes/class-IXR.php on line 42
+[01-Apr-2019 00:30:45 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/jalexsta/public_html/blog/wp-includes/class-feed.php on line 9
+[01-Apr-2019 00:30:45 UTC] PHP Fatal error:  Class 'Walker' not found in /home3/jalexsta/public_html/blog/wp-includes/class-walker-nav-menu.php on line 17
+[01-Apr-2019 00:30:45 UTC] PHP Fatal error:  Class 'Walker' not found in /home3/jalexsta/public_html/blog/wp-includes/class-walker-category-dropdown.php on line 17
+[01-Apr-2019 00:30:45 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home3/jalexsta/public_html/blog/wp-includes/class-simplepie.php on line 5
+[01-Apr-2019 00:30:45 UTC] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home3/jalexsta/public_html/blog/wp-includes/class-simplepie.php on line 5
+[01-Apr-2019 00:30:45 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home3/jalexsta/public_html/blog/wp-includes/class-simplepie.php on line 5
+[01-Apr-2019 00:30:51 UTC] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-color-control.php): failed to open stream: No such file or directory in /home3/jalexsta/public_html/blog/wp-includes/class-wp-customize-control.php on line 696
+[01-Apr-2019 00:30:51 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-color-control.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home3/jalexsta/public_html/blog/wp-includes/class-wp-customize-control.php on line 696
+[01-Apr-2019 00:30:51 UTC] PHP Fatal error:  Class 'Walker' not found in /home3/jalexsta/public_html/blog/wp-includes/class-walker-comment.php on line 17
+[01-Apr-2019 00:30:56 UTC] PHP Fatal error:  Class 'Walker' not found in /home3/jalexsta/public_html/blog/wp-includes/class-walker-page.php on line 17
+[01-Apr-2019 00:30:56 UTC] PHP Fatal error:  Class 'Walker' not found in /home3/jalexsta/public_html/blog/wp-includes/class-walker-page-dropdown.php on line 17
+[01-Apr-2019 00:30:59 UTC] PHP Fatal error:  Call to undefined function _deprecated_file() in /home3/jalexsta/public_html/blog/wp-includes/class-snoopy.php on line 6
+[01-Apr-2019 00:30:59 UTC] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home3/jalexsta/public_html/blog/wp-includes/class-http.php on line 11
+[01-Apr-2019 00:30:59 UTC] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home3/jalexsta/public_html/blog/wp-includes/class-http.php on line 11
+[01-Apr-2019 00:30:59 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home3/jalexsta/public_html/blog/wp-includes/class-http.php on line 11
+[01-Apr-2019 00:31:09 UTC] PHP Fatal error:  Class 'Walker' not found in /home3/jalexsta/public_html/blog/wp-includes/class-walker-category.php on line 17

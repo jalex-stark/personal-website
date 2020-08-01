@@ -1,0 +1,81 @@
+/* VISUAL EDITOR INNER */
+#wpadminbar,
+#adminmenumain
+{
+    display:none!important;
+}
+#wpbody
+{
+    padding-top:0px!important;
+}
+div#wpcontent {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+body {
+    background-color: #fff !important;
+}
+
+/* HIDE NOTICES AND UNWANTED LINKS, FOOTER & VIEW FIXES */
+body .notice, 
+html div.fs-notice.fs-slug-wp-seo-keyword-optimizer,
+.components-notice-list,
+div#screen-meta-links,
+.page-title-action,
+#wpfooter,
+.update-nag,
+.error {
+    display: none !important;
+}
+html.wp-toolbar {
+    padding-top: 0px;
+}
+div#wp-content-editor-tools {
+    background-color: #fff;
+    position: absolute !important;
+    top: 0px !important;
+}
+div#ed_toolbar {
+    position: absolute !important;
+    top: 0px !important;
+}
+
+/* GUTENBERG IFRAME FIX */
+.edit-post-fullscreen-mode-close__toolbar {
+    display: none;   
+}
+.edit-post-layout__metaboxes {
+    display: none;
+}
+.edit-post-header {
+    left:0px !important;
+    top: 0px !important;
+}
+.edit-post-layout__content {
+    margin-left: 0 !important;
+    top: 56px !important;
+}
+.edit-post-sidebar {
+    top: 56px !important;
+}
+
+/* GUTENBERG SCROLLING */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 3px;
+    background: #d4d4d4;
+}
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 3px;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    background: #f7f7f7;
+    border-radius: 3px;
+}
+
+/* VISUAL COMPOSER FIX */
+.vc_subnav-fixed {
+    top: 0px !important;
+}

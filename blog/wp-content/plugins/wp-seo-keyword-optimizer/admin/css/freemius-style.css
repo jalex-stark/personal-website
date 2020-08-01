@@ -1,0 +1,90 @@
+div#fs_account {
+    margin: 20px auto;
+    max-width: 700px;
+}
+table#fs_billing_address {
+    margin: 10px 0px;
+}
+#fs_account h3 {
+    border-color: #eee;
+    padding: 15px 15px 5px;
+    font-size: 14px;
+}
+
+table#fs_account_details tr,
+table#fs_billing_address tr {
+    border-color: #eee;
+    background-color: #fff;
+}
+
+table#fs_account_details tr:last-child,
+table#fs_billing_address tr:last-child {
+    border:0px;
+}
+
+.wrap.fs-section .notice {
+    display: none;
+}
+
+/* FS Inputs */
+#fs_billing_address label {
+    width: 100%;
+}
+#fs_billing_address input, 
+#fs_billing_address select {
+    border: solid 1px #ddd;
+    height: 34px;
+}
+#fs_billing_address tr td {
+    padding: 10px 15px;
+}
+#fs_account .fs-header-actions {
+    top:10px;
+}
+.fs-header-actions a {
+    height: 24px;
+    line-height: 22px;
+    padding: 0 8px 1px;
+    font-size: 11px;
+    color: #555;
+    border-color: #cccccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #cccccc;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.fs-header-actions a i {
+line-height: 22px;
+}
+#fs_account .fs-header-actions li:nth-child(2), 
+#fs_account .fs-header-actions li:nth-child(4),
+#fs_account .fs-header-actions li:nth-child(6) {
+    display: none;
+}
+#fs_account .fs-header-actions li {
+    margin-left: 5px;
+}
+.fs-section h2.nav-tab-wrapper a.nav-tab {
+    background-color: transparent;
+    border: 0px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 15px;
+    color: #797979;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.fs-section h2.nav-tab-wrapper a.nav-tab.nav-tab-active {
+    border-bottom: solid 2px #337ab7;
+    color: #337ab7;
+}
