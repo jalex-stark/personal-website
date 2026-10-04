@@ -25,9 +25,12 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: |
+            package-lock.json
             apps/little-trips/package-lock.json
             apps/letter-tiles/package-lock.json
             apps/switchyard/package-lock.json
+      - run: npm ci
+      - run: npm test
       - run: npm ci --prefix apps/little-trips
       - run: npm ci --prefix apps/letter-tiles
       - run: npm ci --prefix apps/switchyard
@@ -39,6 +42,7 @@ jobs:
         working-directory: apps/little-trips
       - name: Serve the production build
         run: python3 -m http.server 4180 --bind 127.0.0.1 --directory site-dist > /tmp/site-server.log 2>&1 &
+      - run: node scripts/check-action-logs.mjs
       - run: npm run test:browser --prefix apps/little-trips
         env:
           PLAYTEST_URL: http://127.0.0.1:4180/games/little-trips/

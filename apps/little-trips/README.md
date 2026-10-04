@@ -40,7 +40,7 @@ Rules tests verify all five exact-cover solutions, connectivity, collisions, rot
 
 ## Playtest feedback
 
-Progress and up to 2,500 event records stay in browser local storage. During `npm run dev`, actions also save automatically to **`playtests/actions.jsonl`** on the Mac running Vite. This directory is excluded from Git. The production build makes no telemetry requests. There is no external analytics service or account system. Export a JSON file from **How to play → Export playtest events**.
+Progress and up to 2,500 event records stay in browser local storage. During `npm run dev`, actions also save automatically to **`playtests/actions.jsonl`** on the Mac running Vite. This directory is excluded from Git. The website production build additionally sends complete actions to its private Netlify playtest archive, using the shared journal documented in the website README. There is no account system. Export a JSON file from **How to play → Export playtest events**.
 
 Movement records include input type, fractional grip, duration, distance, target changes, blocked previews, a bounded board-relative pointer trace, drop outcome, and before/after board states. Pickup, rotation, rejection, cancellation, undo, hint, and menu events supply context. **How to play → What felt awkward?** saves a free-text note with the current board and action sequence. Logs can contain whatever you write in a note.
 

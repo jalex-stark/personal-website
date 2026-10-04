@@ -31,7 +31,8 @@ yard picker. Progress saves separately for each yard.
 Progress and the last 1,500 semantic action records stay in local storage.
 How to play offers notes and a JSON export. Drag events include pointer type,
 grip, duration, distance, target changes and the resulting arrangement. Playback
-records its first failure or successful arrival. Nothing is sent to a server.
+records its first failure or successful arrival. The website production build
+also sends full action logs to its private playtest archive.
 
 Engine tests verify all authored routes, crossing timing, head-on collisions,
 missing tracks, wrong orientations, and invalid arrangements. Browser tests
@@ -45,3 +46,6 @@ PLAYTEST_URL=https://www.jalexstark.com/games/switchyard/ npm run test:browser
 This is a browser prototype; physical phone playtesting remains useful. The
 interface uses original SVG rails and trains, with bundled DM Sans and Fraunces
 under their included SIL Open Font Licenses.
+
+The website build additionally uploads full actions and board states to the private
+Netlify playtest archive. See the root README for collection and retrieval.

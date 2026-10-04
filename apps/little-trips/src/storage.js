@@ -26,11 +26,11 @@ let sequence = Math.max(0, ...events.filter(e => e.session === session && Number
 export function track(event, properties = {}) {
   const entry = { event, timestamp: new Date().toISOString(), session, sequence: ++sequence, ...properties };
   entry.id = `${session}:${entry.sequence}`;
+  window.GameActionLog?.record(event, entry);
   events.push(entry);
   events = events.slice(-2500);
   writeStorage(EVENT_KEY, events);
-  // The development server archives actions on this Mac. Production builds only
-  // retain the existing browser journal; they have no telemetry endpoint.
+  // Development additionally archives actions on this Mac.
   if (import.meta.env.DEV) {
     fetch('/__little-trips/playtest', { method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-Little-Trips-Local': '1' },
