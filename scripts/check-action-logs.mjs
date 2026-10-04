@@ -11,6 +11,7 @@ for (const [name, engine] of [['Chromium', chromium], ['WebKit', webkit]]) {
       let fail = true;
       await context.route('**/api/game-actions', async route => {
         const batch = route.request().postDataJSON();
+        await new Promise(resolve => setTimeout(resolve, 25));
         if (fail) return route.fulfill({ status: 503, body: '{}' });
         received.push(batch);
         await route.fulfill({ contentType: 'application/json', body: JSON.stringify({ accepted: batch.events.length }) });
@@ -56,6 +57,15 @@ for (const [name, engine] of [['Chromium', chromium], ['WebKit', webkit]]) {
       assert(!events.some(event => event.action === 'input.key' && event.detail.target?.id === 'feedback'));
       if (game === 'peel') assert(events.some(event => event.action === 'view.fit'), 'server recording continues when local QA panel pauses');
       assert.deepEqual(errors, []);
+      // Actions arriving while an upload is in flight must be included before
+      // flush resolves, and pending() must never report a transient false empty.
+      await page.evaluate(async () => {
+        const active = window.GameActionLog.flush();
+        for (let i = 0; i < 100; i++) window.GameActionLog.record('concurrent.write', { i });
+        await active;
+        await window.GameActionLog.flush();
+      });
+      assert.equal(received.flatMap(batch => batch.events).filter(event => event.action === 'concurrent.write').length, 100);
       if (game === 'switchyard') {
         const count = received.flatMap(batch => batch.events).length;
         await page.evaluate(async () => {

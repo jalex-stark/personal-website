@@ -6,7 +6,7 @@
   let client;
   try { client = localStorage.getItem('games:player:v1') || uuid(); localStorage.setItem('games:player:v1', client); } catch { client = uuid(); }
   const session = uuid();
-  let sequence = 0, writing = Promise.resolve(), flushing = false, retry = 0;
+  let sequence = 0, writing = Promise.resolve(), flushing = false, flushPromise, retry = 0;
   const memory = new Map();
   const database = new Promise((resolve, reject) => {
     const req = indexedDB.open('games-action-outbox-v1', 1);
@@ -33,10 +33,16 @@
     writing = writing.then(() => transact('readwrite', store => store.put(row))).then(() => memory.delete(row.id)).catch(() => {});
   };
   const pending = async () => {
-    await writing;
-    let rows = [];
-    try { rows = await transact('readonly', store => store.getAll()); } catch {}
-    return [...new Map([...rows, ...memory.values()].map(row => [row.id, row])).values()];
+    while (true) {
+      // A new write can commit while an older readonly transaction completes.
+      // Read again if the write barrier changed, rather than report a false empty.
+      const barrier = writing;
+      await barrier;
+      let rows = [];
+      try { rows = await transact('readonly', store => store.getAll()); } catch {}
+      if (barrier !== writing) continue;
+      return [...new Map([...rows, ...memory.values()].map(row => [row.id, row])).values()];
+    }
   };
   const bodyFor = rows => JSON.stringify({ version: 1, client: rows[0].client, game: rows[0].game, session: rows[0].session, events: rows.map(row => row.event) });
   const choose = rows => {
@@ -50,9 +56,10 @@
     }
     return batch;
   };
-  const flush = async () => {
-    if (flushing) return;
+  const flush = () => {
+    if (flushing) return flushPromise;
     flushing = true;
+    flushPromise = (async () => {
     try {
       while (true) {
         const rows = await pending();
@@ -69,6 +76,8 @@
       retry = 0;
     } catch { retry = Math.min(retry + 1, 6); }
     finally { flushing = false; }
+    })();
+    return flushPromise;
   };
   window.GameActionLog = { record, flush, pending, session, client };
   const target = node => {
