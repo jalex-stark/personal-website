@@ -1,0 +1,7 @@
+[build]
+  base = "."
+  command = "npm ci --prefix apps/little-trips && node scripts/build-site.mjs"
+  publish = "site-dist"
+
+[build.environment]
+  NODE_VERSION = "22"

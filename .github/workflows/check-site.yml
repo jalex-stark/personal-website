@@ -1,0 +1,35 @@
+name: Check website and Little Trips
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site-checks-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/little-trips/package-lock.json
+      - run: npm ci --prefix apps/little-trips
+      - run: npm test --prefix apps/little-trips
+      - run: npx playwright install --with-deps chromium webkit
+        working-directory: apps/little-trips
+      - run: npm run test:browser --prefix apps/little-trips
+      - run: node scripts/build-site.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: website
+          path: site-dist
