@@ -1,6 +1,6 @@
 [build]
   base = "."
-  command = "npm ci --prefix apps/little-trips && node scripts/build-site.mjs"
+  command = "npm ci --prefix apps/little-trips && npm ci --prefix apps/letter-tiles && node scripts/build-site.mjs"
   publish = "site-dist"
 
 [build.environment]

@@ -61,6 +61,7 @@ async function packTrip(page, level) {
 }
 
 test('all five trips can be packed through the interface, zipped, and remembered', async ({ page }) => {
+  test.slow(); // Completing all five trips takes longer on Linux WebKit runners.
   const errors = []; page.on('pageerror', error => errors.push(error.message));
   await page.goto('./');
   for (let i = 0; i < levels.length; i++) {

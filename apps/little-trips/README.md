@@ -33,7 +33,7 @@ npm run test:browser
 To check a published build, use a trailing slash in its URL:
 
 ```sh
-PLAYTEST_URL=https://www.jalexstark.com/games/ npm run test:browser
+PLAYTEST_URL=https://www.jalexstark.com/games/little-trips/ npm run test:browser
 ```
 
 Rules tests verify all five exact-cover solutions, connectivity, collisions, rotation, and hints for trapped boards. Browser tests cover complete trips, pointer drag, tap/keyboard controls, undo, persistence, hints, event export, and mobile layout. Mobile dragging uses Chromium's emulated touch input; physical iPhone playtesting is still needed.

@@ -1,4 +1,4 @@
-name: Check website and Little Trips
+name: Check website and games
 
 on:
   push:
@@ -18,17 +18,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+        with:
+          submodules: true
       - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
-          cache-dependency-path: apps/little-trips/package-lock.json
+          cache-dependency-path: |
+            apps/little-trips/package-lock.json
+            apps/letter-tiles/package-lock.json
       - run: npm ci --prefix apps/little-trips
+      - run: npm ci --prefix apps/letter-tiles
       - run: npm test --prefix apps/little-trips
+      - run: npm test --prefix apps/letter-tiles
+      - run: node scripts/build-site.mjs
       - run: npx playwright install --with-deps chromium webkit
         working-directory: apps/little-trips
+      - name: Serve the production build
+        run: python3 -m http.server 4180 --bind 127.0.0.1 --directory site-dist > /tmp/site-server.log 2>&1 &
       - run: npm run test:browser --prefix apps/little-trips
-      - run: node scripts/build-site.mjs
+        env:
+          PLAYTEST_URL: http://127.0.0.1:4180/games/little-trips/
+      - run: node browser-check.js --hosted http://127.0.0.1:4180/games/letter-tiles/
+        working-directory: apps/letter-tiles
       - uses: actions/upload-artifact@v4
         with:
           name: website

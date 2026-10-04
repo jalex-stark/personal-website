@@ -1,0 +1,3 @@
+[submodule "apps/letter-tiles"]
+	path = apps/letter-tiles
+	url = https://github.com/jalex-stark/peel.git
