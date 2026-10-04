@@ -5,3 +5,13 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+[[redirects]]
+  from = "/games/letter-tiles"
+  to = "/games/peel/"
+  status = 301
+
+[[redirects]]
+  from = "/games/letter-tiles/*"
+  to = "/games/peel/:splat"
+  status = 301

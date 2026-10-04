@@ -3,7 +3,7 @@
 Static personal website at https://www.jalexstark.com, with a game directory at
 https://www.jalexstark.com/games/:
 
-- Letter Tiles (Peel): `/games/letter-tiles/`
+- Peel: `/games/peel/` (the previous `/games/letter-tiles/` URL redirects here)
 - Little Trips: `/games/little-trips/`
 
 ## Build and publish
@@ -18,9 +18,9 @@ node scripts/build-site.mjs
 The build copies the existing static pages and files into `site-dist/`, then
 builds each game into `site-dist/games/<game>/` with matching asset URLs. App source,
 development playtest logs, and dependencies are excluded from the published site.
-Game source and playtesting instructions live in `apps/`. Letter Tiles is a
+Game source and playtesting instructions live in `apps/`. Peel is a
 submodule of https://github.com/jalex-stark/peel, pinned to a reviewed commit.
-To publish a new Letter Tiles version, update that submodule and commit its
+To publish a new Peel version, update that submodule and commit its
 new revision in this repository.
 
 Netlify builds and publishes `master` using `netlify.toml`. GitHub Actions runs

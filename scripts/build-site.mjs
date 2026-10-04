@@ -17,9 +17,9 @@ for (const entry of await readdir(root)) {
   await cp(join(root, entry), join(output, entry), { recursive: true });
 }
 
-for (const name of ['little-trips', 'letter-tiles']) {
+for (const [name, slug] of [['little-trips', 'little-trips'], ['letter-tiles', 'peel']]) {
   execFileSync('npm', [
-    'run', 'build', '--', `--base=/games/${name}/`,
-    '--outDir', join(output, 'games', name), '--emptyOutDir',
+    'run', 'build', '--', `--base=/games/${slug}/`,
+    '--outDir', join(output, 'games', slug), '--emptyOutDir',
   ], { cwd: join(root, 'apps', name), stdio: 'inherit' });
 }

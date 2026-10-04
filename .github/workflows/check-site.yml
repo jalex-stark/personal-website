@@ -39,7 +39,7 @@ jobs:
       - run: npm run test:browser --prefix apps/little-trips
         env:
           PLAYTEST_URL: http://127.0.0.1:4180/games/little-trips/
-      - run: node browser-check.js --hosted http://127.0.0.1:4180/games/letter-tiles/
+      - run: node browser-check.js --hosted http://127.0.0.1:4180/games/peel/
         working-directory: apps/letter-tiles
       - uses: actions/upload-artifact@v4
         with:
