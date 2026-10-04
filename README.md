@@ -5,6 +5,7 @@ https://www.jalexstark.com/games/:
 
 - Peel: `/games/peel/` (the previous `/games/letter-tiles/` URL redirects here)
 - Little Trips: `/games/little-trips/`
+- Switchyard: `/games/switchyard/`
 
 ## Build and publish
 
@@ -12,6 +13,7 @@ https://www.jalexstark.com/games/:
 git submodule update --init
 npm ci --prefix apps/little-trips
 npm ci --prefix apps/letter-tiles
+npm ci --prefix apps/switchyard
 node scripts/build-site.mjs
 ```
 
@@ -24,5 +26,5 @@ To publish a new Peel version, update that submodule and commit its
 new revision in this repository.
 
 Netlify builds and publishes `master` using `netlify.toml`. GitHub Actions runs
-both games' tests, browser checks against the production build, and the website
+the games' tests, browser checks against the production build, and the website
 build on pushes and pull requests.

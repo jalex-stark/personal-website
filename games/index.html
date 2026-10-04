@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f5f2e9">
-  <meta name="description" content="A little word play and a cozy packing puzzle. Games by Jalex Stark.">
+  <meta name="description" content="Word play, suitcase packing, and a little railway. Games by Jalex Stark.">
   <title>Games — Jalex Stark</title>
   <style>
     @font-face{font-family:DM Sans;src:url('little-trips/fonts/dm-sans.ttf') format('truetype');font-weight:100 900;font-display:swap}
     @font-face{font-family:Fraunces;src:url('little-trips/fonts/fraunces.ttf') format('truetype');font-weight:100 900;font-display:swap}
     *{box-sizing:border-box}body{margin:0;background:#f5f2e9;color:#333b32;font-family:DM Sans,system-ui,sans-serif}main{max-width:980px;margin:auto;padding:38px 28px 70px}nav a{color:#59694f;text-decoration:none;font-size:14px}nav a:hover{text-decoration:underline}.eyebrow{font-size:12px;letter-spacing:.17em;font-weight:700;color:#6e7a61;margin:70px 0 16px}h1{font:500 clamp(44px,8vw,72px)/1.05 Fraunces,Georgia,serif;margin:0 0 18px}.intro{font-size:18px;line-height:1.6;color:#6e7367;margin:0 0 42px}.games{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.game{display:flex;flex-direction:column;color:inherit;text-decoration:none;background:#fffdf7;border:1px solid #e1dece;border-radius:20px;overflow:hidden;transition:transform .18s,box-shadow .18s}.game:hover{transform:translateY(-4px);box-shadow:0 10px 30px #414b2e12}.game:focus-visible{outline:3px solid #54744a;outline-offset:5px}.art{height:220px;display:grid;place-items:center;background:#e5eadc}.packing{background:#f0e1cf}.tiles{display:flex;gap:7px;transform:rotate(-5deg)}.tiles span{display:grid;place-items:center;width:54px;height:58px;border-radius:7px;background:#fffdf2;box-shadow:0 4px 0 #cac9a7,0 8px 18px #68745020;font-size:28px;font-weight:650;color:#405938}.tiles span:nth-child(2){transform:translateY(-12px) rotate(5deg)}.tiles span:nth-child(4){transform:translateY(10px) rotate(7deg)}.art svg{width:176px;height:140px;transform:rotate(4deg)}.copy{padding:26px 28px 30px;display:flex;flex-direction:column;flex:1}.copy h2{font:500 31px Fraunces,Georgia,serif;margin:0 0 12px}.copy p{font-size:15px;line-height:1.65;color:#707466;margin:0 0 24px}.play{font-size:14px;font-weight:700;color:#54744a;margin-top:auto}footer{margin-top:38px;font-size:13px;color:#858779}@media(max-width:620px){main{padding:26px 20px 44px}.eyebrow{margin-top:48px}.games{grid-template-columns:1fr}.art{height:180px}.intro{font-size:16px}.copy{padding:24px}}@media(prefers-reduced-motion:reduce){.game{transition:none}.game:hover{transform:none}}
+    .games{grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr))}
   </style>
 </head>
 <body>
@@ -26,6 +27,10 @@
       <a class="game" href="little-trips/">
         <div class="art packing" aria-hidden="true"><svg viewBox="0 0 176 140" fill="none"><rect x="65" y="8" width="46" height="22" rx="8" stroke="#8e7054" stroke-width="8"/><rect x="13" y="26" width="150" height="104" rx="19" fill="#ca9670" stroke="#a67853" stroke-width="4"/><rect x="25" y="38" width="126" height="80" rx="12" fill="#f8eacb"/><path d="M55 39v79M122 39v79" stroke="#d7b781" stroke-width="6"/><rect x="35" y="49" width="46" height="28" rx="8" fill="#879b75"/><rect x="87" y="49" width="49" height="57" rx="8" fill="#c87e67"/><rect x="35" y="83" width="46" height="23" rx="7" fill="#8fa6b0"/></svg></div>
         <div class="copy"><h2>Little Trips</h2><p>Five little trips. One little suitcase. Turn, tuck, and rearrange each piece until everything fits.</p><span class="play">Play Little Trips →</span></div>
+      </a>
+      <a class="game" href="switchyard/">
+        <div class="art" aria-hidden="true"><svg viewBox="0 0 176 140" fill="none"><path d="M49 119V23M107 119V23" stroke="#87977b" stroke-width="7"/><path d="M40 30h75M40 50h75M40 70h75M40 90h75M40 110h75" stroke="#b29b72" stroke-width="7"/><rect x="48" y="30" width="62" height="77" rx="18" fill="#c48a3d" stroke="#fff7df" stroke-width="4"/><rect x="59" y="43" width="40" height="23" rx="6" fill="#fff7df"/><path d="M61 89H95" stroke="#fff7df" stroke-width="7" stroke-linecap="round"/></svg></div>
+        <div class="copy"><h2>Switchyard</h2><p>Lay a little railway, then watch your plan unfold. Give every train a quiet way home.</p><span class="play">Play Switchyard →</span></div>
       </a>
     </div>
     <footer>Play in your browser. Your progress saves on this device.</footer>

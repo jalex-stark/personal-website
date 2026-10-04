@@ -27,10 +27,13 @@ jobs:
           cache-dependency-path: |
             apps/little-trips/package-lock.json
             apps/letter-tiles/package-lock.json
+            apps/switchyard/package-lock.json
       - run: npm ci --prefix apps/little-trips
       - run: npm ci --prefix apps/letter-tiles
+      - run: npm ci --prefix apps/switchyard
       - run: npm test --prefix apps/little-trips
       - run: npm test --prefix apps/letter-tiles
+      - run: npm test --prefix apps/switchyard
       - run: node scripts/build-site.mjs
       - run: npx playwright install --with-deps chromium webkit
         working-directory: apps/little-trips
@@ -41,6 +44,9 @@ jobs:
           PLAYTEST_URL: http://127.0.0.1:4180/games/little-trips/
       - run: node browser-check.js --hosted http://127.0.0.1:4180/games/peel/
         working-directory: apps/letter-tiles
+      - run: npm run test:browser --prefix apps/switchyard
+        env:
+          PLAYTEST_URL: http://127.0.0.1:4180/games/switchyard/
       - uses: actions/upload-artifact@v4
         with:
           name: website
